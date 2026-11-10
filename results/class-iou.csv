@@ -1,0 +1,8 @@
+class,512_resized_iou_percent,1024_tiled_iou_percent
+Background,50.88,52.83
+Building,48.21,58.06
+Road,54.22,56.43
+Water,68.49,72.22
+Barren,27.33,34.48
+Forest,38.4,43.59
+Agriculture,58.6,54.01

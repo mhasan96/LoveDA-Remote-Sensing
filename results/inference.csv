@@ -1,0 +1,3 @@
+protocol,miou_percent,validation_images
+512_resized,49.45,1669
+1024_tiled,53.09,1669
