@@ -17,7 +17,7 @@
 
 This project studies how training, spatial resolution, inference strategy, and confidence calibration affect urban and rural land-cover segmentation. The pipeline uses **SegFormer-B2**, weighted cross-entropy plus Dice training, and overlapping tiled inference on the LoveDA dataset.
 
-**Research status:** ongoing experimental project. No accepted paper or public test-server result is claimed. The documentation records the project validation results supplied on November 10, 2026; it is not an independently rerun benchmark release.
+**Research status:** Ongoing experimental project. Still working on to improve the performance. Code will be released when the full experiment is done. 
 
 ## Approach
 
@@ -81,7 +81,7 @@ Temperature scaling reduced ECE from **11.21% to 2.85% under the 512 × 512 resi
 
 ## Next evaluation steps
 
-Complete the matched full B2 cross-entropy baseline; compare resized, non-overlapping, and overlapping inference at a common output grid; inspect Agriculture confusion; and measure calibration under the final tiled protocol. Dataset split manifests, checkpoint hashes, tile stride, blending, and test-time augmentation settings should accompany a reproducible code release rather than being inferred from these summary metrics.
+Complete the full B2 cross-entropy baseline; compare resized, non-overlapping, and overlapping inference at a common output grid; inspect Agriculture confusion; and measure calibration under the final tiled protocol. 
 
 ## Repository contents
 
@@ -93,7 +93,7 @@ Complete the matched full B2 cross-entropy baseline; compare resized, non-overla
 
 ## Code availability
 
-**Code will be available upon acceptance of the associated paper.** The project is currently under development; no paper acceptance or submission is implied. Source notebooks, checkpoints, and executable evaluation scripts are not yet included in this documentation release.
+**Code will be available upon acceptance of the associated paper.** The project is currently under development;
 
 ## Resources
 
